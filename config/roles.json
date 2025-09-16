@@ -1,0 +1,17 @@
+{
+  "owner": "0x1125Ea4aaeaaC198fB99a88E0976E76992678A7F",
+  "operator": "0x1125Ea4aaeaaC198fB99a88E0976E76992678A7F",
+  "pauser": "0x1125Ea4aaeaaC198fB99a88E0976E76992678A7F",
+  "tokenOwner": "0x1125Ea4aaeaaC198fB99a88E0976E76992678A7F",
+  "tokensOwner": "0x1125Ea4aaeaaC198fB99a88E0976E76992678A7F",
+  "revokeDeployerRoles": false,
+  "defaultAdmin": "0x1125Ea4aaeaaC198fB99a88E0976E76992678A7F",
+  "revokeDeployerAdmin": false,
+  "verify": false,
+  "timelock": {
+    "deploy": false
+  },
+  "deployGasLimit": "6000000",
+  "deployGasLimitToken": "4500000",
+  "deployGasLimitPop": "8000000"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "color-coins",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy_proof_of_paint.js --network hardhat",
+    "deploy:sepolia": "hardhat run scripts/deploy_proof_of_paint.js --network sepolia",
+    "config:pop": "node scripts/configure_proof_of_paint.js",
+    "curve:gen": "node scripts/generateRewardCurve.js --alpha 3.0 > curve.json",
+    "verify": "hardhat verify",
+    "addrs": "node scripts/printAddresses.js",
+    "checkenv": "node scripts/checkEnv.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.12",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  }
+}

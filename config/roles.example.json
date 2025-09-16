@@ -1,0 +1,20 @@
+{
+  "owner": "0xOwnerMultisigAddress",
+  "operator": "0xOpsSignerAddress",
+  "pauser": "0xSecuritySignerAddress",
+  "tokenOwner": "0xTokenDistributionMultisig",
+  "tokensOwner": "0xTokenAdminMultisigOrTimelock",
+  "revokeDeployerRoles": true,
+  "defaultAdmin": "0xTimelockOrMultisigForAccessControl",
+  "revokeDeployerAdmin": true,
+  "deployGasLimit": "6000000",
+  "deployGasLimitToken": "4500000",
+  "deployGasLimitPop": "8000000",
+  "timelock": {
+    "deploy": true,
+    "minDelay": 86400,
+    "proposers": ["0xOwnerMultisigAddress"],
+    "executors": ["0xOwnerMultisigAddress"],
+    "admin": "0xOwnerMultisigAddress"
+  }
+}

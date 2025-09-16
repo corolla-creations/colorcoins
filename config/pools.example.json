@@ -1,0 +1,16 @@
+{
+  "staking": "0xStakingAddressHere",
+  "pools": [
+    {
+      "pid": 0,
+      "kind": "pair",
+      "fundA": { "token": "0xGreen", "amount": "1000000000000000000000000" }
+    },
+    {
+      "pid": 3,
+      "kind": "single",
+      "fundA": { "token": "0xRed", "amount": "500000000000000000000000" },
+      "fundB": { "token": "0xBlue", "amount": "500000000000000000000000" }
+    }
+  ]
+}

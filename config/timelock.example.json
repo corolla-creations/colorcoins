@@ -1,0 +1,6 @@
+{
+  "minDelay": 86400,
+  "proposers": ["0xYourMultisigAddress"],
+  "executors": ["0xYourMultisigAddress"]
+}
+

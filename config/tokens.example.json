@@ -1,0 +1,12 @@
+{
+  "owner": "0xYourTimelockOrMultisig",
+  "tokens": {
+    "blue": "0xBlueAddress",
+    "red": "0xRedAddress",
+    "yellow": "0xYellowAddress",
+    "green": "0xGreenAddress",
+    "orange": "0xOrangeAddress",
+    "purple": "0xPurpleAddress"
+  }
+}
+

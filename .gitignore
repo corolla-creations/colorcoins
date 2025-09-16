@@ -1,0 +1,20 @@
+# Node & Hardhat artifacts
+node_modules/
+artifacts/
+cache/
+coverage/
+coverage.json
+
+# Local environment secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Deployment outputs that change every run
+deployments/latest.json
+deployments/by-chain/*.latest.json
+
+# Logs & OS cruft
+*.log
+.DS_Store

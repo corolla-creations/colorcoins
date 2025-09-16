@@ -1,0 +1,21 @@
+{
+  "pop": "0xProofOfPaintAddress",
+  "pools": [
+    { "pid": 0, "fund": [{ "token": "0xGreenToken", "amount": "1000000000000000000000" }] },
+    { "pid": 1, "fund": [{ "token": "0xOrangeToken", "amount": "1000000000000000000000" }] },
+    { "pid": 2, "fund": [{ "token": "0xPurpleToken", "amount": "1000000000000000000000" }] },
+    { "pid": 3, "fund": [
+      { "token": "0xRedToken", "amount": "500000000000000000000" },
+      { "token": "0xBlueToken", "amount": "500000000000000000000" }
+    ] },
+    { "pid": 4, "fund": [
+      { "token": "0xYellowToken", "amount": "500000000000000000000" },
+      { "token": "0xBlueToken", "amount": "500000000000000000000" }
+    ] },
+    { "pid": 5, "fund": [
+      { "token": "0xYellowToken", "amount": "500000000000000000000" },
+      { "token": "0xRedToken", "amount": "500000000000000000000" }
+    ] }
+  ]
+}
+

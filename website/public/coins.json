@@ -1,0 +1,32 @@
+{
+  "BLUE": {
+    "name": "Blue Coin",
+    "address": "0x6Af7d8eea65942fb982d2EB0D94AFae5d03891DD",
+    "image": "/coins/blue.png"
+  },
+  "RED": {
+    "name": "Red Coin",
+    "address": "0x947BbB685d15773CC836A61AB25A239d61001d05",
+    "image": "/coins/red.png"
+  },
+  "YELLOW": {
+    "name": "Yellow Coin",
+    "address": "0x91BA82e739dE2D40544c8A0ce52940A8E338485B",
+    "image": "/coins/yellow.png"
+  },
+  "GREEN": {
+    "name": "Green Coin",
+    "address": "0xD85c7fCE4d2b79303b4F06294Fdc2f7849d50563",
+    "image": "/coins/green.png"
+  },
+  "ORANGE": {
+    "name": "Orange Coin",
+    "address": "0x6CdfE308b24c6B0Ea8195858898290db51B576be",
+    "image": "/coins/orange.png"
+  },
+  "PURPLE": {
+    "name": "Purple Coin",
+    "address": "0x312742d412a8201f61543DfF22199ba8285974D6",
+    "image": "/coins/purple.png"
+  }
+}
