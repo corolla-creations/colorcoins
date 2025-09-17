@@ -1,0 +1,59 @@
+{
+  "decimals": 18,
+  "tokens": [
+    {
+      "symbol": "RED",
+      "name": "Red Coin",
+      "address": "0x6a639EdD7d6B770BeD0eB9c3e60fb5348620ecA1",
+      "allocations": {
+        "merkle": "9412787787",
+        "quest":  "9412787787"
+      }
+    },
+    {
+      "symbol": "YELLOW",
+      "name": "Yellow Coin",
+      "address": "0x1334D7BDB88044D1E863bA0507B94d5666251eca",
+      "allocations": {
+        "merkle": "9000000000",
+        "quest":  "9000000000"
+      }
+    },
+    {
+      "symbol": "BLUE",
+      "name": "Blue Coin",
+      "address": "0x8DcC9141e89848E4B85Bb42cb6bA9A2eB079AD74",
+      "allocations": {
+        "merkle": "9000000000",
+        "quest":  "9000000000"
+      }
+    },
+    {
+      "symbol": "GREEN",
+      "name": "Green Coin",
+      "address": "0x5d42EE1dF7424741E923E5CcBc1D4ea82E402d7B",
+      "allocations": {
+        "merkle": "9000000",
+        "quest":  "9000000"
+      }
+    },
+    {
+      "symbol": "ORANGE",
+      "name": "Orange Coin",
+      "address": "0x92FA85D004298EC0D81Fdc95520C2c04Fa9F9345",
+      "allocations": {
+        "merkle": "9000000",
+        "quest":  "9000000"
+      }
+    },
+    {
+      "symbol": "PURPLE",
+      "name": "Purple Coin",
+      "address": "0x6Af7d8eea65942fb982d2EB0D94AFae5d03891DD",
+      "allocations": {
+        "merkle": "9000000",
+        "quest":  "9000000"
+      }
+    }
+  ]
+}
