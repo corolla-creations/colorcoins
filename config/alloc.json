@@ -1,0 +1,23 @@
+{
+  "tokens": {
+    "BLUE":   "0x8DcC9141e89848E4B85Bb42cb6bA9A2eB079AD74",
+    "RED":    "0x6a639EdD7d6B770BeD0eB9c3e60fb5348620ecA1",
+    "YELLOW": "0x1334D7BDB88044D1E863bA0507B94d5666251eca",
+    "GREEN":  "0x5d42EE1dF7424741E923E5CcBc1D4ea82E402d7B",
+    "ORANGE": "0x92FA85D004298EC0D81Fdc95520C2c04Fa9F9345",
+    "PURPLE": "0x6Af7d8eea65942fb982d2EB0D94AFae5d03891DD"
+  },
+  "destinations": {
+    "teamVesting":     "0x8366Fd36Ef539d246CBc3A1b41e37c55c03871aC",
+    "advisorsVesting": "0x1350acfEc9be1dE3bfaC8B0861ed31c72c042ddf",
+    "stakingReserve":  "0x3CEbE299D57c07582Ca212b1120a10A139a5354c",
+    "treasury":        "0xF4DaE04C8FA7Cc05642e5Dc13FAbf18E5466ae23"
+  },
+  "default_bps": {
+    "team":     1500,
+    "staking":  3500,
+    "lp":       1200,
+    "treasury": 3600,
+    "advisors": 200
+  }
+}

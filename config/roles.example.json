@@ -10,6 +10,10 @@
   "deployGasLimit": "6000000",
   "deployGasLimitToken": "4500000",
   "deployGasLimitPop": "8000000",
+  "deployMaxFeeGwei": "60",
+  "deployPriorityFeeGwei": "3",
+  "deployMaxFeeGweiPop": "70",
+  "deployPriorityFeeGweiPop": "4",
   "timelock": {
     "deploy": true,
     "minDelay": 86400,

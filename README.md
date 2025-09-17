@@ -13,6 +13,15 @@ Tokens (18 decimals)
 - Orange Coin (`ORANGE`): cap 222,222,222
 - Purple Coin (`PURPLE`): cap 222,222,222
 
+Mainnet Addresses (chainId 1)
+- `ProofOfPaint`: `0x947BbB685d15773CC836A61AB25A239d61001d05`
+- `BLUE`: `0x8DcC9141e89848E4B85Bb42cb6bA9A2eB079AD74`
+- `RED`: `0x6a639EdD7d6B770BeD0eB9c3e60fb5348620ecA1`
+- `YELLOW`: `0x1334D7BDB88044D1E863bA0507B94d5666251eca`
+- `GREEN`: `0x5d42EE1dF7424741E923E5CcBc1D4ea82E402d7B`
+- `ORANGE`: `0x92FA85D004298EC0D81Fdc95520C2c04Fa9F9345`
+- `PURPLE`: `0x6Af7d8eea65942fb982d2EB0D94AFae5d03891DD`
+
 Initial Allocation Targets (guidance)
 - Creator/Team: 15% (vested 4 years, 1-year cliff)
 - Staking/Rewards: 35% (emissions over 3–5 years, decaying schedule)
@@ -57,6 +66,7 @@ Deployment (Hardhat)
 2) Deploy tokens + ProofOfPaint and set roles/ownership
  - Copy `config/roles.example.json` to `config/roles.json` and fill addresses.
   - (Optional) Add `deployGasLimit`, `deployGasLimitToken`, or `deployGasLimitPop` if your RPC struggles to estimate gas. These are numeric values in wei.
+  - (Optional) Override fee caps with `deployMaxFeeGwei` / `deployPriorityFeeGwei` (global) or per-deployment variants (`deployMaxFeeGweiToken`, `deployPriorityFeeGweiToken`, `deployMaxFeeGweiPop`, `deployPriorityFeeGweiPop`).
    - `npx hardhat run scripts/deploy_proof_of_paint.js --network <net>`
 3) Configure pools and fund rewards
    - Copy `config/pop.example.json` to `config/pop.json` and fill token addresses, pools, and funding amounts.

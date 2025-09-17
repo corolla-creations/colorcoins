@@ -1,0 +1,17 @@
+{
+  "router": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+  "weth":   "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+  "slippage_bps": 300,
+  "deadline_mins": 20,
+
+  "lp_recipient": "0x3862366cee2aCbF4017c2DA6A337Cd12EF1fDFCB",
+
+  "tokens": [
+    { "label": "BLUE",   "address": "0x8DcC9141e89848E4B85Bb42cb6bA9A2eB079AD74", "price_eth_per_token": "0.000000000009375000000", "eth_deposit": "0.05" },
+    { "label": "RED",    "address": "0x6a639EdD7d6B770BeD0eB9c3e60fb5348620ecA1", "price_eth_per_token": "0.000000000009375000000", "eth_deposit": "0.05" },
+    { "label": "YELLOW", "address": "0x1334D7BDB88044D1E863bA0507B94d5666251eca", "price_eth_per_token": "0.000000000009375000000", "eth_deposit": "0.05" },
+    { "label": "GREEN",  "address": "0x5d42EE1dF7424741E923E5CcBc1D4ea82E402d7B", "price_eth_per_token": "0.000000009375000009000",  "eth_deposit": "0.05" },
+    { "label": "ORANGE", "address": "0x92FA85D004298EC0D81Fdc95520C2c04Fa9F9345", "price_eth_per_token": "0.000000009375000009000",  "eth_deposit": "0.05" },
+    { "label": "PURPLE", "address": "0x6Af7d8eea65942fb982d2EB0D94AFae5d03891DD", "price_eth_per_token": "0.000000009375000009000",  "eth_deposit": "0.05" }
+  ]
+}
